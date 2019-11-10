@@ -31,8 +31,8 @@
    </script>
 </head>
 <body>
-	<?=wCMS::alerts()?>
 	<?=wCMS::settings()?>
+	<?=wCMS::alerts()?>
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="col-sm-5 text-center">
