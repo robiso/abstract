@@ -12,8 +12,10 @@
 	<meta name="description" content="<?=$Wcms->page('description')?>">
 	<meta name="keywords" content="<?=$Wcms->page('keywords')?>">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<?=$Wcms->css()?>
 	<link rel="stylesheet" href="<?=$Wcms->asset('css/style.css')?>">
+
+	<?=$Wcms->css()?>
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
 
    <script type="text/javascript">
